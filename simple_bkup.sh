@@ -1,62 +1,56 @@
 #!/bin/bash
 
-# Cron job set to run this script weekly on Tuesdays @ 15:00
-# and on Thursdays @ 17:00
+# source ~/.bashrc
+# Cron job set to run this script weekly on Tuesdays @ 12:00
+# and on Thursdays @ 12:00
 # Currently, being manually backed up to Google Drive
+# --> Can now use `gupload` (Jan 2021)
+# removed /etc/passwd from backup
 
-# Init date
+
 TODAY=$(date +%d-%m-%Y)
 
-# Init backup directory
-BACKUPDIR="/home/$USER/Backups"
+BACKUPDIR="/home/$USER/Backups/"
+SNAPSHOTDIR="/timeshift/snapshots/"
+NEWEST=$(ls -t $BACKUPDIR | head -n +1)
 
 # Count items in backup directory
 COUNT=$(ls $BACKUPDIR -t | wc -l)
 
+# Count items in snapshot dir
+SCOUNT=$(ls $SNAPSHOTDIR -t | wc -l)
 
+# Create tarball from specified directories with exclusions
 back_up_files() {
-	tar -zcf /home/$USER/Backups/"$TODAY"_backup.tar.gz /home/$USER/Documents /home/$USER/.bashrc /etc/passwd 2>/dev/null 
+	tar -zc -X /home/adam/Documents/bash_scripts/simple_bkup/exclude.txt -f /home/$USER/Backups/"$TODAY"_backup.tar.gz /home/$USER 
 }
 
-
+# Clean up the backup dir
 back_up_dir() {
-	if [ $COUNT -gt "4" ]; then
+	if [ $COUNT -gt "3" ]; then
 		cd $BACKUPDIR
-		ls -t $BACKUPDIR | tail -n +5 | xargs rm -f
-		cd ~
-		tar -czvf /home/$USER/Backups.tar.gz /home/$USER/Backups 2>/dev/null
+		ls -t $BACKUPDIR | grep tar.gz | tail -n +3 | xargs rm -f
 	fi
 }
 
+# clean up the snapshot dir
+snap_clean() {
+	if [ $SCOUNT -gt "2" ]; then
+		cd $SNAPSHOTDIR
+		ls -t $SNAPSHOTDIR | tail -n +2 | xargs rm -rf
+	fi
+}
+
+# Check the specified backup dir exists, if not, create it
 test -d $BACKUPDIR
 if [ $? == "1" ]; then
 	mkdir "/home/$USER/Backups"
 fi
 
-# Perform backup of user Documents
-# and /etc/passwd
-#---------------------------------
-echo "Starting backup for $(date +%A) $(date +%d-%b-%Y)..."
-echo "Backup includes:"
-sleep 1s
-echo "/home/$USER/Documents"
-sleep 1s
-echo "/home/$USER/.bashrc"
-sleep 1s
-echo "/etc/passwd"
-
 back_up_files
-
-if [ $? == "0" ]; then
-	echo "File backup successful."
-else
-	echo "File backup failed, please review."
-fi
-
 back_up_dir
+snap_clean
 
-if [ $? == "0" ]; then
-	echo "Directory backup successful."
-else
-	echo "Directory backup failed, please review."
-fi
+#---------------------------------
+
+gupload $BACKUPDIR/$NEWEST
