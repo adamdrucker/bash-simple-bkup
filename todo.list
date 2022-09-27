@@ -1,0 +1,6 @@
+1. call backup function for specified items
+2. clean up the back up directory
+3. clean up the snapshot directory
+4. cp latest backup to /home/card
+5. cp latest snapshot to /home/card
+6. do stuff to keep only one of each on the card at any time
