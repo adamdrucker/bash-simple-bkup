@@ -11,7 +11,7 @@
 TODAY=$(date +%d-%m-%Y)
 
 BACKUPDIR="/home/$USER/Backups/"
-SNAPSHOTDIR="/timeshift/snapshots/"
+SNAPSHOTDIR="/home/timeshift/snapshots/"
 NEWEST=$(ls -t $BACKUPDIR | head -n +1)
 
 # Count items in backup directory

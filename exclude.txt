@@ -1,0 +1,14 @@
+/home/adam/Backups
+/home/adam/.cache
+/home/adam/.config/chromium
+/home/adam/.config/GIMP
+/home/adam/.config/JetBrains
+/home/adam/.config/libreoffice
+/home/adam/.config/Slack
+/home/adam/.hplip
+/home/adam/.local/lib/python*
+/home/adam/.mozilla
+/home/adam/Public
+/home/adam/slack-desktop
+/home/adam/snap
+/home/adam/.thunderbird
