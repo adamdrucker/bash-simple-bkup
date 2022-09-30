@@ -7,7 +7,12 @@
 /home/adam/.config/Slack
 /home/adam/.hplip
 /home/adam/.local/lib/python*
+/home/adam/.local/share/gem
+/home/adam/.local/share/gem
+/home/adam/.local/share/flatpak
+/home/adam/.local/share/JetBrains
 /home/adam/.mozilla
+/home/adam/.vscode
 /home/adam/Public
 /home/adam/slack-desktop
 /home/adam/snap

@@ -53,4 +53,4 @@ snap_clean
 
 #---------------------------------
 
-gupload $BACKUPDIR/$NEWEST
+#gupload $BACKUPDIR$NEWEST
