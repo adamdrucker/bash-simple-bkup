@@ -27,7 +27,7 @@ back_up_files() {
 
 # Clean up the backup dir
 back_up_dir() {
-	if [ $COUNT -gt "3" ]; then
+	if [ $COUNT -eq "3" ]; then
 		cd $BACKUPDIR
 		ls -t $BACKUPDIR | grep tar.gz | tail -n +3 | xargs rm -f
 	fi
@@ -37,7 +37,7 @@ back_up_dir() {
 snap_clean() {
 	if [ $SCOUNT -gt "2" ]; then
 		cd $SNAPSHOTDIR
-		ls -t $SNAPSHOTDIR | tail -n +2 | xargs rm -rf
+		ls -t $SNAPSHOTDIR | tail -n +3 | xargs rm -rf
 	fi
 }
 

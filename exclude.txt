@@ -4,6 +4,8 @@
 /home/adam/.config/GIMP
 /home/adam/.config/JetBrains
 /home/adam/.config/libreoffice
+/home/adam/.config/Code/CachedData
+/home/adam/.config/Microsoft Teams/Cache
 /home/adam/.config/Slack
 /home/adam/.hplip
 /home/adam/.local/lib/python*
@@ -13,7 +15,10 @@
 /home/adam/.local/share/JetBrains
 /home/adam/.mozilla
 /home/adam/.vscode
+/home/adam/Downloads/vsc
 /home/adam/Public
+/home/adam/Techsquare/clients
+/home/adam/Techsquare/hoursapp
 /home/adam/slack-desktop
 /home/adam/snap
 /home/adam/.thunderbird
