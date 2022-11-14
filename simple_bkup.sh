@@ -34,6 +34,7 @@ back_up_dir() {
 }
 
 # clean up the snapshot dir
+# this needs sudo i think
 snap_clean() {
 	if [ $SCOUNT -gt "2" ]; then
 		cd $SNAPSHOTDIR

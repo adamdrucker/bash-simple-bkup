@@ -1,3 +1,4 @@
 # simple_backup
-Simple script to backup my local Docs
-and /etc/passwd just incase
+Simple script for local backups
+
+"Saved My Ass" counter is now up to 1
