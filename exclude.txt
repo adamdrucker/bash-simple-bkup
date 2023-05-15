@@ -1,10 +1,11 @@
 /home/adam/Backups
-/home/adam/.cache
+/home/adam/.cache/*
+/home/adam/.config/*
 /home/adam/.config/chromium
 /home/adam/.config/GIMP
 /home/adam/.config/JetBrains
 /home/adam/.config/libreoffice
-/home/adam/.config/Code/CachedData
+/home/adam/.config/Code/*
 /home/adam/.config/Microsoft Teams/Cache
 /home/adam/.config/Slack
 /home/adam/.hplip
@@ -21,4 +22,3 @@
 /home/adam/Techsquare/hoursapp
 /home/adam/slack-desktop
 /home/adam/snap
-/home/adam/.thunderbird
