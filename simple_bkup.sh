@@ -27,7 +27,7 @@ back_up_files() {
 
 # Clean up the backup dir
 back_up_dir() {
-	if [ $COUNT -eq "3" ]; then
+	if [ $COUNT -ge "3" ]; then
 		cd $BACKUPDIR
 		ls -t $BACKUPDIR | grep tar.gz | tail -n +3 | xargs rm -f
 	fi
