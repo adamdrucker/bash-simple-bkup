@@ -12,11 +12,15 @@
 /home/adam/.local/share/gem
 /home/adam/.local/share/flatpak
 /home/adam/.local/share/JetBrains
+/home/adam/.local/share/libvirt
+/home/adam/.local/share/libvirt/images
 /home/adam/.mozilla
 /home/adam/.vscode
 /home/adam/Downloads/vsc
 /home/adam/Public
 /home/adam/Techsquare/clients
 /home/adam/Techsquare/hoursapp
+/home/adam/Techsquare/vagrant-globalconnect
 /home/adam/slack-desktop
 /home/adam/snap
+/home/adam/.vagrant.d
