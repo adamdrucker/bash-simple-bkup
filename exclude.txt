@@ -1,11 +1,14 @@
 /home/adam/Backups
 /home/adam/.cache/*
 /home/adam/.config/chromium
+/home/adam/.config/google-chrome
 /home/adam/.config/libreoffice
 /home/adam/.config/Code/*
 /home/adam/.config/Microsoft Teams/Cache
 /home/adam/.config/Slack
 /home/adam/Documents/docker
+/home/adam/Documents/Python/venv/*
+/home/adam/go
 /home/adam/.hplip
 /home/adam/.local/lib/python*
 /home/adam/.local/share/gem
