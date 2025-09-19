@@ -5,9 +5,13 @@
 /home/adam/.config/libreoffice
 /home/adam/.config/Code/*
 /home/adam/.config/Microsoft Teams/Cache
-/home/adam/.config/Slack
+/home/adam/.config/Slack/Cache
+/home/adam/.config/Slack/'Code Cache'
+/home/adam/.config/Slack/'Service Worker'
 /home/adam/Documents/docker
 /home/adam/Documents/Python/venv/*
+/home/adam/Downloads/jdk1.6.0_45
+/home/adam/Downloads/macroblank
 /home/adam/go
 /home/adam/.hplip
 /home/adam/.local/lib/python*
@@ -17,13 +21,14 @@
 /home/adam/.local/share/JetBrains
 /home/adam/.local/share/libvirt
 /home/adam/.local/share/libvirt/images
-/home/adam/.mozilla
+/home/adam/.local/share/containers/storage/*
 /home/adam/.vscode
 /home/adam/Downloads/vsc
+/home/adam/Downloads/dell-firmware-h100
+/home/adam/projects/wazuh/wazuh-install-files.tar
 /home/adam/Public
 /home/adam/Techsquare/clients
 /home/adam/Techsquare/hoursapp
 /home/adam/Techsquare/vagrant-globalconnect
-/home/adam/slack-desktop
-/home/adam/snap
 /home/adam/.vagrant.d
+/home/vm
