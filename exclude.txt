@@ -6,10 +6,12 @@
 /home/adam/.config/Code/*
 /home/adam/.config/Microsoft Teams/Cache
 /home/adam/.config/Slack/Cache
-/home/adam/.config/Slack/'Code Cache'
-/home/adam/.config/Slack/'Service Worker'
+/home/adam/.config/Slack/Code\ Cache
+/home/adam/.config/Slack/Service\ Worker
+/home/adam/.var/app/app.nestful.Nestful/cache/*
 /home/adam/Documents/docker
 /home/adam/Documents/Python/venv/*
+/home/adam/Downloads/dell
 /home/adam/Downloads/jdk1.6.0_45
 /home/adam/Downloads/macroblank
 /home/adam/go
@@ -22,6 +24,9 @@
 /home/adam/.local/share/libvirt
 /home/adam/.local/share/libvirt/images
 /home/adam/.local/share/containers/storage/*
+/home/adam/.mozilla/firefox/Crash Reports/*
+/home/adam/.mozilla/*.default*/datareporting/*
+/home/adam/.mozilla/*.default*/storage/default/http*
 /home/adam/.vscode
 /home/adam/Downloads/vsc
 /home/adam/Downloads/dell-firmware-h100
@@ -29,6 +34,8 @@
 /home/adam/Public
 /home/adam/Techsquare/clients
 /home/adam/Techsquare/hoursapp
+/home/adam/Techsquare/psivant
+/home/adam/Techsquare/snaps
 /home/adam/Techsquare/vagrant-globalconnect
 /home/adam/.vagrant.d
 /home/vm
