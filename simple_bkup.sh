@@ -17,7 +17,7 @@ COUNT=$(ls $BACKUPDIR -t | wc -l)
 
 # Create tarball from specified directories with exclusions
 back_up_files() {
-	tar -zc -X /home/adam/Documents/bash_scripts/simple_bkup/exclude.txt -f /home/$USER/Backups/"$TODAY"_backup.tar.gz /home/$USER 
+	tar -zc -X /home/adam/programs/bash/simple_bkup/exclude.txt -f /home/$USER/Backups/"$TODAY"_backup.tar.gz /home/$USER 
 }
 
 # Clean up the backup dir
