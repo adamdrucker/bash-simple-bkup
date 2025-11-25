@@ -33,7 +33,6 @@
 /home/adam/projects/wazuh/wazuh-install-files.tar
 /home/adam/Public
 /home/adam/Techsquare/clients
-/home/adam/Techsquare/hoursapp
 /home/adam/Techsquare/psivant
 /home/adam/Techsquare/snaps
 /home/adam/Techsquare/vagrant-globalconnect
