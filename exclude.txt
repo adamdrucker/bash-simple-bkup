@@ -1,6 +1,10 @@
 /home/adam/Backups
+/home/adam/.ansible/tmp/*
 /home/adam/.cache/*
 /home/adam/.config/chromium
+/home/adam/.config/GIMP
+/home/adam/.config/obsidian
+/home/adam/.config/Cursor
 /home/adam/.config/google-chrome
 /home/adam/.config/libreoffice
 /home/adam/.config/Code/*
@@ -8,30 +12,41 @@
 /home/adam/.config/Slack/Cache
 /home/adam/.config/Slack/Code\ Cache
 /home/adam/.config/Slack/Service\ Worker
+/home/adam/.cursor
+/home/adam/.dotnet
 /home/adam/.var/app/app.nestful.Nestful/cache/*
 /home/adam/Documents/docker
 /home/adam/Documents/Python/venv/*
+/home/adam/Downloads/barber
 /home/adam/Downloads/dell
 /home/adam/Downloads/jdk1.6.0_45
-/home/adam/Downloads/macroblank
+/home/adam/Downloads/dell
+/home/adam/Downloads/youtube-mp3
+/home/adam/Downloads/youtube-vid
 /home/adam/go
 /home/adam/.hplip
+/home/adam/.java
 /home/adam/.local/lib/python*
 /home/adam/.local/share/gem
 /home/adam/.local/share/gem
 /home/adam/.local/share/flatpak
+/home/adam/.local/share/icons
 /home/adam/.local/share/JetBrains
 /home/adam/.local/share/libvirt
 /home/adam/.local/share/libvirt/images
 /home/adam/.local/share/containers/storage/*
+/home/adam/.local/share/Trash
 /home/adam/.mozilla/firefox/Crash Reports/*
 /home/adam/.mozilla/*.default*/datareporting/*
 /home/adam/.mozilla/*.default*/storage/default/http*
 /home/adam/.vscode
 /home/adam/Downloads/vsc
 /home/adam/Downloads/dell-firmware-h100
+/home/adam/programs/python/venv/lib/python3.9/site-packages
+/home/adam/projects/hoursapp
 /home/adam/projects/wazuh/wazuh-install-files.tar
 /home/adam/Public
+/home/adam/rhi
 /home/adam/Techsquare/clients
 /home/adam/Techsquare/psivant
 /home/adam/Techsquare/snaps
